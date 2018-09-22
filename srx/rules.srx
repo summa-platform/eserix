@@ -401,8 +401,8 @@
                 </rule>
 
                 <rule break="yes">
-                    <beforebreak>[\.\?!]+</beforebreak>
-                    <afterbreak>\s+\p{Lu}</afterbreak>
+                    <beforebreak>\P{N}[\.\?!:]+</beforebreak>
+                    <afterbreak>\s+"?\p{Lu}</afterbreak>
                 </rule>
 
                 <rule break="yes">
